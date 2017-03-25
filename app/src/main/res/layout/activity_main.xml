@@ -21,15 +21,22 @@
 
     <TextView
         android:id="@+id/scale_text"
-        android:text="배율 : 1배"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="배율 : 1배" />
 
     <TextView
         android:id="@+id/text_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:text="Hello World!dfdf" />
+        android:text="Hello World!dfdf"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@mipmap/ic_launcher" />
 
 </LinearLayout>
